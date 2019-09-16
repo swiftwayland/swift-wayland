@@ -1,0 +1,5 @@
+module Cwayland [system] {
+  header "shim.h"
+  link "wayland-client"
+  link "wayland-server"
+}
